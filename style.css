@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%
+}
+
+body {
+    background: #121212;
+    color: #FFFFFF;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+button {
+    cursor: pointer;
+}
+
+.auth-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:
+        radial-gradient(1200px 600px at 50% -20%, rgba(8, 116, 67, 0.18), transparent 60%),
+        #121212;
+}
+
+.auth-wrapper {
+    width: 100%;
+    max-width: 400px;
+}
+
+.auth-card {
+    background: #1C1C1C;
+    border: 1px solid #2A2A2A;
+    border-radius: 14px;
+    padding: 28px 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.auth-card__title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.auth-card__subtitle {
+    color: #9A9A9A;
+    font-size: 14px;
+    margin-bottom: 22px;
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.field__label {
+    font-size: 13px;
+    color: #9A9A9A;
+}
+
+.form-error {
+    color: #D9534F;
+    font-size: 13px;
+    margin-top: -4px;
+}
+
+.auth-card__hint {
+    margin-top: 18px;
+    text-align: center;
+    font-size: 12px;
+    color: #6E6E6E;
+}
+
+.auth-card__hint strong {
+    color: #9A9A9A;
+    font-weight: 500;
+}
+
+.btn {
+    padding: 10px 16px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.15s ease;
+}
+
+.btn--primary {
+    background: #087443;
+    color: #fff;
+}
+
+.btn--primary:hover {
+    background: #0A8F54;
+}
+
+.input,
+.select {
+    width: 100%;
+    padding: 10px 12px;
+    background: #232323;
+    color: #fff;
+    border: 1px solid #2A2A2A;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.15s ease;
+}
+
+.input:focus {
+    border-color: #087443;
+}
+
+.input::placeholder {
+    color: #9A9A9A;
+}

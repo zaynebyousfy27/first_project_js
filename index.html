@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body class="auth-page">
+
+    <main class="auth-wrapper">
+        <div class="auth-card">
+            <h1 class="auth-card__title">Welcome back</h1>
+            <p class="auth-card__subtitle">Log in to continue your streak.</p>
+
+            <form id="loginForm" class="auth-form">
+                <label class="field">
+                    <span class="field__label">Email</span>
+                    <input class="input" type="email" id="email" placeholder="you@mail.com"  required />
+                </label>
+
+                <label class="field">
+                    <span class="field__label">Password</span>
+                    <input class="input" type="password" id="password" placeholder="••••••••" required />
+                </label>
+
+                <p class="form-error" id="error" hidden></p>
+
+                <button class="btn btn--primary btn--block" type="submit">Log In</button>
+            </form>
+
+         
+        </div>
+    </main>
+
+</body>
+<script src="./main.js">
+    //console.log(1+2);
+    //alert("Zayneb")
+    //if (confirm("Are u sure? "))
+    //{
+   //     alert("DONE")
+    //}  
+    //else  {
+        //console.log("NOT DONE")
+    //}
+    
+</script>
+
+</html>
